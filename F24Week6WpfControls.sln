@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F24Week6WpfControls", "F24Week6WpfControls\F24Week6WpfControls.csproj", "{D1B2882A-C838-435A-839D-93854D9E246E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1B2882A-C838-435A-839D-93854D9E246E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B2882A-C838-435A-839D-93854D9E246E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B2882A-C838-435A-839D-93854D9E246E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B2882A-C838-435A-839D-93854D9E246E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71528B67-6643-424A-976D-956703E8191E}
+	EndGlobalSection
+EndGlobal
