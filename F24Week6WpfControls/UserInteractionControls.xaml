@@ -33,6 +33,27 @@
             <ComboBoxItem Content="Kia"/>
         </ComboBox>
         <Button x:Name="btnReadCombobox" Content="Read ComboBox" Canvas.Left="197" Canvas.Top="336" Click="btnReadCombobox_Click"/>
+        <ListBox x:Name="lstPlanets" Height="172" Width="141" Canvas.Left="384" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <ListBoxItem Content="Mercury"/>
+            <ListBoxItem Content="Venus"/>
+            <ListBoxItem Content="Earth"/>
+            <ListBoxItem Content="Mars"/>
+        </ListBox>
+
+        <Menu Height="17" Width="800" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_New"/>
+                <MenuItem Header="_Open"/>
+                <MenuItem Header="_Save"/>
+                <Separator />
+                <MenuItem Header="_Close" Click="MenuItem_Click"/>
+            </MenuItem>
+            <MenuItem Header="_Edit">
+                <MenuItem Header="Cu_t"/>
+                <MenuItem Header="_Copy"/>
+                <MenuItem Header="_Paste"/>
+            </MenuItem>
+        </Menu>
 
     </Canvas>
 </Window>
