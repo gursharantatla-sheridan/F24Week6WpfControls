@@ -17,6 +17,22 @@
         </GroupBox>
         <Button x:Name="btnReadCheckboxes" Content="Read Checkboxes" Canvas.Left="172" Canvas.Top="52" Click="btnReadCheckboxes_Click"/>
         <Label x:Name="lblOutput" Canvas.Left="578" Canvas.Top="277" Height="114" Width="190" Background="#FFBFF8ED"/>
+        <GroupBox Height="111" Header="Gender" Width="142" Canvas.Left="25" Canvas.Top="199" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Canvas>
+                <RadioButton x:Name="rdoFemale" Content="Female" Canvas.Left="10" Canvas.Top="10"/>
+                <RadioButton x:Name="rdoMale" Content="Male" Canvas.Left="10" Canvas.Top="30" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                <RadioButton x:Name="rdoOther" Content="Other" Canvas.Left="10" Canvas.Top="52" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            </Canvas>
+        </GroupBox>
+        <Button x:Name="btnReadRadioButons" Content="Read RadioButtons" Canvas.Left="172" Canvas.Top="217" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnReadRadioButons_Click"/>
+        <Label Content="Cars" Canvas.Left="25" Canvas.Top="334"/>
+        <ComboBox x:Name="cmbCars" Canvas.Left="72" Canvas.Top="336" Width="120" SelectionChanged="cmbCars_SelectionChanged">
+            <ComboBoxItem Content="Honda"/>
+            <ComboBoxItem Content="Ford"/>
+            <ComboBoxItem Content="Mazda"/>
+            <ComboBoxItem Content="Kia"/>
+        </ComboBox>
+        <Button x:Name="btnReadCombobox" Content="Read ComboBox" Canvas.Left="197" Canvas.Top="336" Click="btnReadCombobox_Click"/>
 
     </Canvas>
 </Window>
